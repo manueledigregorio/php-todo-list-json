@@ -5,7 +5,7 @@ createApp({
   data() {
     return {
      list: [],
-      newTodo: 'CIAOOO',
+      newTodo: "",
     }
     
   },
@@ -22,7 +22,18 @@ createApp({
     },
 
     addTask(){
-      
+      const dataTodo = new FormData();
+      dataTodo.append('newMessage', this.newTodo );
+      console.log(this.newTodo);
+      axios.post('server.php', dataTodo )
+      .then(result => {
+        this.list = result.data;
+        console.log(result.data);
+      })
+      .catch((err) => {
+        console.log(err);
+      })
+
     }
     
   },

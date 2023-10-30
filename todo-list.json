@@ -1,18 +1,1 @@
-[
-  {
-    "message": "fare un viaggio Cuba",
-    "done": "false"
-  },
-  {
-    "message": "fare un viaggio new york",
-    "done": "false"
-  },
-  {
-    "message": "fare un viaggio Roma",
-    "done": "false"
-  },
-  {
-    "message": "fare un viaggio Milano",
-    "done": "false"
-  }
-]
+[{"message":"pluto","dome":false},{"message":"pluto","dome":false},{"message":"pluto","dome":false},{"message":"pluto","dome":false},{"message":"ciao","done":false}]
